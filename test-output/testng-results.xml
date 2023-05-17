@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-16T04:38:42Z" name="Suite" finished-at="2023-05-16T04:38:56Z" duration-ms="14804">
+    <groups>
+    </groups>
+    <test started-at="2023-05-16T04:38:42Z" name="Test" finished-at="2023-05-16T04:38:56Z" duration-ms="14804">
+      <class name="testNGfeatures.DataProviderTest">
+        <test-method signature="getLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNGfeatures.DataProviderTest@16eccb2e]" started-at="2023-05-16T04:38:42Z" name="getLogin" data-provider="Authentication" finished-at="2023-05-16T04:38:46Z" duration-ms="4275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tanvirpatwary16@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester01]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid Credential]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLogin -->
+        <test-method signature="getLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNGfeatures.DataProviderTest@16eccb2e]" started-at="2023-05-16T04:38:46Z" name="getLogin" data-provider="Authentication" finished-at="2023-05-16T04:38:49Z" duration-ms="3450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tanvirpatwary45@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid Credential]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLogin -->
+        <test-method signature="getLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNGfeatures.DataProviderTest@16eccb2e]" started-at="2023-05-16T04:38:49Z" name="getLogin" data-provider="Authentication" finished-at="2023-05-16T04:38:53Z" duration-ms="3366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tanvirpatwary00@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid Credential]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLogin -->
+        <test-method signature="getLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNGfeatures.DataProviderTest@16eccb2e]" started-at="2023-05-16T04:38:53Z" name="getLogin" data-provider="Authentication" finished-at="2023-05-16T04:38:56Z" duration-ms="3691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test123456565656@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dsfsf]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid Credential]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLogin -->
+      </class> <!-- testNGfeatures.DataProviderTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

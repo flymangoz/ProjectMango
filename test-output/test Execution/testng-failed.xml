@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [test Execution]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" name="Chrome Test(failed)">
+    <parameter name="browsers" value="chrome"/>
+    <classes>
+      <class name="testNGfeatures.CrossBrowserTesting">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testCase"/>
+        </methods>
+      </class> <!-- testNGfeatures.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+  <test thread-count="3" name="Edge Test(failed)">
+    <parameter name="browsers" value="edge"/>
+    <classes>
+      <class name="testNGfeatures.CrossBrowserTesting">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testCase"/>
+        </methods>
+      </class> <!-- testNGfeatures.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- Edge Test(failed) -->
+  <test thread-count="3" name="FireFox Test(failed)">
+    <parameter name="browsers" value="firefox"/>
+    <classes>
+      <class name="testNGfeatures.CrossBrowserTesting">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testCase"/>
+        </methods>
+      </class> <!-- testNGfeatures.CrossBrowserTesting -->
+    </classes>
+  </test> <!-- FireFox Test(failed) -->
+</suite> <!-- Failed suite [test Execution] -->
